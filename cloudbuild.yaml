@@ -4,7 +4,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/$PROJECT_ID/demo-app']
 images:
-  - 'gcr.io/gcp-study-463918/demo-app'
+  - 'gcr.io/GCP-week2-Network/demo-app'
 options:
   logging: CLOUD_LOGGING_ONLY
 
